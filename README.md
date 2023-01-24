@@ -1,4 +1,4 @@
-# Kubernetes - Implementação minikube
+# Kubernetes - Implementação Minikube
 
 Requerimentos necessários
 - 2 CPUs or more

@@ -53,9 +53,7 @@
  
   - name: Download minikube binary
     command: curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-
   - name: Install minikube binary
     command: sudo install minikube-linux-amd64 /usr/local/bin/minikube
-
-  - name: Setting Docker as the default driver
-    command: minikube config set driver docker   
+  - name: Minicube config set driver Docker
+    command: sudo minikube config set driver docker   
